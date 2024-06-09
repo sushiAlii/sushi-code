@@ -73,6 +73,25 @@ main > div {
   width: var(--desktop-width);
 }
 
+#navbar > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navbar .navigate-to-code {
+  background-color: var(--primary-color);
+  color: #2B2B2B;
+  
+  border-radius: 5px;
+
+  font-size: 1.5em;
+  font-weight: 600;
+  text-decoration: none;
+
+  padding: 0.5rem 3rem;
+}
+
 #navbar a {
   text-decoration: none;
 }
@@ -101,4 +120,16 @@ main > div {
 
 .home-header-text > span {
   color: var(--primary-color);
+}
+
+#code-editor {
+  flex: 1;
+  border: 1px solid #ccc;
+}
+
+#terminal {
+  flex: 1;
+  border: 1px solid #ccc;
+  background-color: #000;
+  color: #fff;
 }
