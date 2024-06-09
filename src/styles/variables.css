@@ -1,0 +1,29 @@
+:root {
+    --bg-dark: #1F1F1F;
+
+    --primary-text-color: #E0E0E0;
+    --secondary-text-color: #A0A0A0;
+
+    --primary-color: #FF5A5F;
+
+    --primary-accent-color: #6BBE44;
+    --secondary-accent-color: #8B4513;
+
+    --highlight-color: #FFA07A;
+    --border-color: #8B4513;
+
+    --base-font-size: 1em;
+    --line-height: 1.6;
+  
+    --h1-font-size: 2.5em;
+    --h1-line-height: 1.2;
+  
+    --h2-font-size: 2em;
+    --h2-line-height: 1.3;
+  
+    --h3-font-size: 1.75em;
+    --h3-line-height: 1.3;
+  
+    --p-font-size: 1em;
+    --p-line-height: 1.6;
+}
