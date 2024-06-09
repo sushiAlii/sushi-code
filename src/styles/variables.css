@@ -26,4 +26,7 @@
   
     --p-font-size: 1em;
     --p-line-height: 1.6;
+
+    --desktop-width: 1280px;
+    --navbar-height: 100px;
 }

@@ -47,9 +47,30 @@ a {
   color: var(--highlight-color);
 }
 
+button {
+  background-color: var(--primary-color);
+  border: 1px solid #2B2B2B;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+
+  font-weight: 600;
+  color: #2B2B2B;
+}
+
 #navbar {
-  padding: 0.1rem 3rem;
+  padding: 0.1rem 0;
   background-color: #2B2B2B;
+  height: var(--navbar-height);
+}
+
+#navbar, main {
+  display: flex;
+  justify-content: center;
+}
+
+#navbar > div, 
+main > div {
+  width: var(--desktop-width);
 }
 
 #navbar a {
@@ -58,4 +79,26 @@ a {
 
 #navbar h2 {
   color: var(--primary-text-color);
+}
+
+#home-content {
+  padding: 5rem 0;
+  text-align: center;
+}
+
+#home-content a {
+  background-color: var(--primary-color);
+  color: #2B2B2B;
+  
+  border-radius: 5px;
+
+  font-size: 1.5em;
+  font-weight: 600;
+  text-decoration: none;
+
+  padding: 0.5rem 3rem;
+}
+
+.home-header-text > span {
+  color: var(--primary-color);
 }
