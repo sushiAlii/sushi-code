@@ -7,7 +7,7 @@ function Home() {
         Experience coding <span>sushi style</span> for Free!
       </h1>
 
-      <Link to="/code">Start Coding</Link>
+      <Link to="/code/javascript">Start Coding</Link>
     </section>
   );
 }
